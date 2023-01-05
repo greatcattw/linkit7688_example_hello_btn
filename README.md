@@ -1,9 +1,11 @@
-Object : example of PCF8574 button proc driver
+# Object : example of PCF8574 button proc driver
 
-Test HW: Linkit 7688
-Test SW: openwrit 3.18.109
+![pic](demo.jpg)<br><br><br>
 
-Usage:
+## Test HW: Linkit 7688
+## Test SW: openwrit 3.18.109
+
+# Usage:
 	copy hello_btn to openwrt/package/kernel
 	make menuconfig
 		select
@@ -15,7 +17,7 @@ Usage:
 
 	cat /proc/HELLO_BTN
 
-Note:
+# Note:
 	The analog button seems simple. 
 	But, after 1~3 years, the button maybe be damped and there is some resistance.
 	One day, you want to press button to cancle launching missle. 
